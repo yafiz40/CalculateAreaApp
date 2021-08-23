@@ -1,6 +1,7 @@
 package utils
 
-object CalculateAreaUtils {
+@Deprecated("Change implementation to Shape Class")
+class CalculateAreaUtils {
     fun calculateAreaRectangle(length: Int, width: Int): Int {
         return length * width
     }
